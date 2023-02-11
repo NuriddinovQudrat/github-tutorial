@@ -1,7 +1,7 @@
 import React from "react";
 
 const App = () => {
-  return <div>CODE UPDATED and changed</div>;
+  return <div>Helllooo everybody</div>;
 };
 
 export default App;
