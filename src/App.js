@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react'
 
 const App = () => {
-  return <div>CODE UPDATED and changed</div>;
-};
+  return (
+    <div>App</div>
+  )
+}
 
-export default App;
-// codes
+export default App
