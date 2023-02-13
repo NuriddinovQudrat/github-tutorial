@@ -1,7 +1,11 @@
 // O'ktam
+import React from "react"
+import "./about.css"
 const About =() =>{
     return(
-        <div className="about" id="about">About</div>
+        <div className="about" id="about">
+            
+        </div>
     )
 }
 
