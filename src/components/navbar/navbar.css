@@ -10,6 +10,7 @@
     height: 50px;
     margin-bottom: 20px;
     position: fixed;
+    z-index: 100px;
     background-color: #303030 !important;
 }
 
@@ -54,4 +55,23 @@ a {
 .nav-item a.active,
 .nav-item a:hover {
     color: #ff4029 !important;
+}
+
+.nav-menu {
+    display: none;
+}
+
+.nav-menu svg {
+    font-size: 30px;
+    color: #888;
+}
+
+@media(max-width: 768px) {
+    .nav-list {
+        display: none;
+    }
+
+    .nav-menu {
+        display: block;
+    }
 }

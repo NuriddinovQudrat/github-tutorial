@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./navbar.css";
+import { FiMenu } from "react-icons/fi";
+import NavMenu from "./NavMenu";
 
 const Navbar = () => {
   const [navList, setNavList] = useState([
@@ -19,6 +21,7 @@ const Navbar = () => {
       )
     );
   };
+  const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <div className="navbar">
@@ -47,7 +50,18 @@ const Navbar = () => {
               );
             })}
           </ul>
+
+          <div className="nav-menu">
+            <FiMenu onClick={() => setOpenMenu(!openMenu)} />
+          </div>
         </div>
+        {openMenu ? (
+          <NavMenu
+            navList={navList}
+            setNavList={setNavList}
+            getStatus={getStatus}
+          />
+        ) : null}
       </div>
     </div>
   );
