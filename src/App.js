@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import About from "./components/about/About";
 import Home from "./components/home/Home";
 import Navbar from "./components/navbar/Navbar";
 
@@ -8,6 +9,7 @@ const App = () => {
     <div>
       <Navbar />
       <Home />
+      <About/>
     </div>
   );
 };
