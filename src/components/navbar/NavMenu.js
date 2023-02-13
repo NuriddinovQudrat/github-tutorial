@@ -1,8 +1,7 @@
 import React from "react";
 import "./nav-menu.css";
 
-const NavMenu = (props) => {
-  const { openMenu, setOpenMenu } = props;
+const NavMenu = () => {
   return (
     <div className="hamburger">
       <div className="menu-wrapper">

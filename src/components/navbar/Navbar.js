@@ -55,13 +55,7 @@ const Navbar = () => {
             <FiMenu onClick={() => setOpenMenu(!openMenu)} />
           </div>
         </div>
-        {openMenu ? (
-          <NavMenu
-            navList={navList}
-            setNavList={setNavList}
-            getStatus={getStatus}
-          />
-        ) : null}
+        {openMenu ? <NavMenu /> : null}
       </div>
     </div>
   );
