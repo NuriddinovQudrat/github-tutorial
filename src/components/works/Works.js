@@ -27,7 +27,7 @@ export default function Works() {
         marginTop: '0%'
     }
     return (
-        <div className='Container'>
+        <div className='Container' id='Work'>
             <div className='upper'>
                 <h1> НАШИ РАБОТЫ</h1>
                 <p>Ниже Вы можете просмотреть работы, которые мы уже выполнили.</p>

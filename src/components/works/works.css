@@ -4,7 +4,7 @@
 }
 
 .Container {
-    width: 76%;
+    width: 100%;
     padding: 12%;
     padding-top: 11%;
     background-color: #4A1414;
@@ -52,7 +52,6 @@
     width: 100%;
     z-index: -1;
     transition: 1s ease;
-
 }
 
 img:hover {
