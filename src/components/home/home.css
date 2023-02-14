@@ -1,0 +1,91 @@
+.home {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(46, 46, 46, 1) 0%, rgba(50, 50, 50, 0.6) 100%);
+    z-index: 2;
+}
+
+.home-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../home/imgs/home-img.jpg) no-repeat center center;
+    text-align: center;
+    color: #fff;
+    z-index: -1;
+    background-size: cover;
+}
+
+.home-intro {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.home-intro h1 {
+    white-space: nowrap;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 400;
+}
+
+.home-intro .brand {
+    color: #ff4029;
+    font-weight: 700;
+}
+
+.home-intro p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.home-intro .btn {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    padding: 12px 20px;
+    margin: 0;
+    font-size: 15px;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+.home-intro .btn:hover {
+    color: #fff;
+    background-color: #ff4029;
+    border-color: #ff4029;
+}
+
+@media(max-width:1200px) {
+    .home-intro h1 {
+        white-space: unset;
+        font-size: 50px;
+    }
+}
+
+@media(max-width:990px) {
+    .home-intro h1 {
+        font-size: 42px;
+    }
+}

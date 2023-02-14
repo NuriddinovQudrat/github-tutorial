@@ -20,6 +20,7 @@ const Navbar = () => {
           : { ...list, isActive: false }
       )
     );
+    setOpenMenu(false);
   };
   const [openMenu, setOpenMenu] = useState(false);
 
@@ -55,7 +56,13 @@ const Navbar = () => {
             <FiMenu onClick={() => setOpenMenu(!openMenu)} />
           </div>
         </div>
-        {openMenu ? <NavMenu /> : null}
+        {openMenu ? (
+          <NavMenu
+            navList={navList}
+            setOpenMenu={setOpenMenu}
+            getStatus={getStatus}
+          />
+        ) : null}
       </div>
     </div>
   );
