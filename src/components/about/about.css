@@ -1,0 +1,36 @@
+.main-box {
+    display: flex;
+    margin: 0 100px;
+}
+
+.left-img img {
+width: 600px;
+height: 700px;
+margin-top: 50px;
+}
+.right-text {
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+#text {
+    margin-left: 200px;
+}
+.container h1 {
+    margin: 0 auto;
+}
+.main-box h3 {
+   
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+#onas{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px
+    ;
+}
+#abaut {
+    background-color: red;
+}
