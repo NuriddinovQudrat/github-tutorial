@@ -7,6 +7,7 @@ import Create from "./components/create/Create";
 import Contact from "./components/contact/Contact";
 import Map from "./components/map/Map";
 import Footer from "./components/footer/Footer";
+import Works from "./components/works/Works";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Home />
       <Create/>
       <About/>
+      <Works/>
       <Contact/>
       <Map/>
       <Footer/>
