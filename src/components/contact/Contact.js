@@ -6,7 +6,7 @@ import { AiFillHome } from 'react-icons/ai'
 
 const Contact = () => {
     return (
-        <div> 
+        <div id='contact'> 
             <form action="">
             <div classNameName='title'>
                 <h1 className='title-paragraph'>ОБРАТНАЯ СВЯЗЬ</h1>

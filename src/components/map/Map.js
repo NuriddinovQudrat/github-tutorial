@@ -8,7 +8,7 @@ function GoogleMap(){
         ifameData.src=`https://maps.google.com/maps?q=${lat},${lon}&hl=es;&output=embed`
     })
     return(
-        <div>
+        <div id="">
             <iframe id="iframeId" height="600px" width="100%"/>
         </div>
     );
